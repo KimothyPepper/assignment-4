@@ -1,0 +1,187 @@
+html{
+  background-color:#dbd6cf;
+
+  color: #000;
+}
+
+h1{
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height:1rem ;
+  text-align: center;
+  font-family: 'Bevan', cursive;
+  padding:0em 0em 0.5em 0.5em;
+  margin:0; /* top/bottom left/right */
+  background-color: #79756f;
+}
+body {
+
+  margin:0;
+  padding:0.5em;
+}
+header {
+  background-color: #79756f;
+  padding:1em;
+  margin:0;
+
+}
+
+nav {
+  background-color: #79756f;
+  text-align:center;
+
+}
+nav ul {
+
+  list-style:none;
+  padding:0;
+  margin:0;
+
+}
+
+nav li {
+  display:inline;
+}
+
+nav a {
+  display:inline-block;
+  padding:0.5em 0.75em ;
+  background-color:#6f3839;
+  color:white;
+  text-decoration:none;
+  border-radius:10px ;
+  margin:1px;
+}
+
+figure {
+  border:2px solid #c2bdbd;;
+  border-radius:10px ;
+  padding:0.75em 0.75em 3em 0.75em;
+  text-align:center;
+  margin:0em 0.5em;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+
+h2 {
+  color: #7f7775;
+  font-weight: normal;
+  font-size:1rem;
+  line-height:1.5 ;
+  text-align: left;
+  font-family:'Bevan', cursive;
+}
+
+h3 {
+  color: #7f7775;
+  font-weight: normal;
+  font-size:1rem;
+  line-height:1 ;
+  text-align: left;
+  font-family:'Bevan', cursive;
+
+
+}
+
+ul{
+
+  list-style-type:none;
+}
+
+p {
+
+  font-style:normal;
+  text-decoration: none;/*underline,none, line-through, */
+  text-align:left; /*left, center, righ, justify*/
+  font-family:arial,sans-serif;
+
+
+
+}
+
+ol{
+  list-style-type:none; /*decimal,lower-alpha,circle,
+  lower-roman,upper-alpha,square,disc, none  */
+  padding: 0;
+
+}
+
+h1+ul{
+  list-style-type:none;
+  padding:0;
+
+}
+
+h2+ul{list-style-type:lower-roman;
+
+
+}
+
+.quote{
+  font-style:italic;
+  font-size:1.5rem;
+  text-aling:left;
+  padding:40;
+
+}
+
+.name{
+
+  font-style:italic;
+  font-size:0.25rem;
+  text-align: right;
+  color: #8a8884;
+
+}
+
+.marscaption{
+
+  font-style:italic;
+  font-size:.25rem;
+}
+
+.venuscaption{
+
+  font-style:italic;
+  font-size:.25rem;
+}
+
+ul{
+
+  list-style-type:circle;
+}
+
+.v, .m {
+  list-style-type:circle;
+}
+
+a {
+
+  color: #822813;
+
+}
+
+
+dt{
+  font-weight:bold;
+}
+a:hover {
+  color:#d85131;
+}
+
+i.cel {
+  color:#a19997;
+  font-weight:normal;
+}
+
+i.round {
+  color:#a19997;
+  font-weight:normal;
+}
